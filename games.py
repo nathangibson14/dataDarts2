@@ -14,6 +14,7 @@ class game:
     
   def add_player(self,player):
     self._players.append(player)
+    self._score.append(501)
     
   def set_num_legs(self,num_legs):
     self._num_legs = num_legs
@@ -28,7 +29,6 @@ class game:
   #    
   def play_game(self, first=0):
     self._num_players = len(self._players)
-    self._score = [501]*self._num_players
     if self._num_players == 0:
       print "Error: must have player to play game."
       sys.exit(-1)

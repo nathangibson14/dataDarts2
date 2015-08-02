@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'form.ui'
 #
-# Created: Sat Aug  1 16:50:41 2015
+# Created: Sat Aug  1 18:32:26 2015
 #      by: PyQt4 UI code generator 4.10.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -28,7 +28,7 @@ class Ui_Dialog(object):
         Dialog.setObjectName(_fromUtf8("Dialog"))
         Dialog.resize(598, 350)
         self.pushButton = QtGui.QPushButton(Dialog)
-        self.pushButton.setGeometry(QtCore.QRect(40, 260, 92, 27))
+        self.pushButton.setGeometry(QtCore.QRect(31, 260, 121, 27))
         self.pushButton.setObjectName(_fromUtf8("pushButton"))
         self.listWidget = QtGui.QListWidget(Dialog)
         self.listWidget.setGeometry(QtCore.QRect(30, 50, 121, 201))
@@ -37,7 +37,7 @@ class Ui_Dialog(object):
         self.listWidget_2.setGeometry(QtCore.QRect(420, 50, 121, 201))
         self.listWidget_2.setObjectName(_fromUtf8("listWidget_2"))
         self.newPlayer = QtGui.QPushButton(Dialog)
-        self.newPlayer.setGeometry(QtCore.QRect(40, 300, 92, 27))
+        self.newPlayer.setGeometry(QtCore.QRect(30, 300, 121, 27))
         self.newPlayer.setObjectName(_fromUtf8("newPlayer"))
         self.label = QtGui.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(50, 0, 71, 51))
@@ -52,6 +52,12 @@ class Ui_Dialog(object):
         self.textBrowser = QtGui.QTextBrowser(Dialog)
         self.textBrowser.setGeometry(QtCore.QRect(160, 50, 251, 201))
         self.textBrowser.setObjectName(_fromUtf8("textBrowser"))
+        self.removePlayer = QtGui.QPushButton(Dialog)
+        self.removePlayer.setGeometry(QtCore.QRect(420, 260, 121, 27))
+        self.removePlayer.setObjectName(_fromUtf8("removePlayer"))
+        self.playGame = QtGui.QPushButton(Dialog)
+        self.playGame.setGeometry(QtCore.QRect(210, 260, 151, 71))
+        self.playGame.setObjectName(_fromUtf8("playGame"))
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
@@ -67,4 +73,6 @@ class Ui_Dialog(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Ubuntu\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Stats</p></body></html>", None))
+        self.removePlayer.setText(_translate("Dialog", "RemovePlayer", None))
+        self.playGame.setText(_translate("Dialog", "Play Game!", None))
 

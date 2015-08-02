@@ -84,6 +84,9 @@ class player:
     with con:
       cur = con.cursor()
       cur.execute("INSERT INTO Players(Name) VALUES(?)",(self._name,))
+      cur.execute("SELECT Id FROM Players ORDER BY Id DESC LIMIT 1")
+      player_id = cur.fetchone()[0]
+      self._id = player_id
     con.close()
     
   def get_average(self):

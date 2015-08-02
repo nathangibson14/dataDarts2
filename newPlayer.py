@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'newPlayer.ui'
 #
-# Created: Sat Aug  1 15:49:56 2015
+# Created: Sun Aug  2 09:40:14 2015
 #      by: PyQt4 UI code generator 4.10.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -27,15 +27,15 @@ class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName(_fromUtf8("Dialog"))
         Dialog.resize(399, 140)
-        self.nameInput = QtGui.QPlainTextEdit(Dialog)
-        self.nameInput.setGeometry(QtCore.QRect(170, 40, 201, 31))
-        self.nameInput.setObjectName(_fromUtf8("nameInput"))
         self.label = QtGui.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(20, 50, 141, 16))
         self.label.setObjectName(_fromUtf8("label"))
         self.pushButton = QtGui.QPushButton(Dialog)
         self.pushButton.setGeometry(QtCore.QRect(230, 90, 92, 27))
         self.pushButton.setObjectName(_fromUtf8("pushButton"))
+        self.lineEdit = QtGui.QLineEdit(Dialog)
+        self.lineEdit.setGeometry(QtCore.QRect(160, 50, 201, 26))
+        self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
